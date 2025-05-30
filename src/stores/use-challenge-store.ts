@@ -63,6 +63,7 @@ export const useChallenge = create<ChallengeState & ChallengeActions>()(
         if (!challenge) {
           return logStoreError("selectChallenge", "No challenge found");
         }
+
         state.challenge = challenge;
       });
     },

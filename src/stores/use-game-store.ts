@@ -28,7 +28,7 @@ interface GameActions {
 
 export const useGame = create<GameState & GameActions>()(
   immer((set) => ({
-    currentDay: 10,
+    currentDay: 1,
     totalDays: 10,
     challenges: generateChallenges(),
     status: "lobby",
