@@ -21,7 +21,7 @@ export function MainMenu() {
           {/* Title */}
           <div className="mb-8 text-center">
             <h1 className="font-starcraft text-6xl text-cyan-300 tracking-wider mb-4">
-              DEEP COVER
+              DEEP  COVER
             </h1>
             <div className="h-1 w-64 mx-auto bg-gradient-to-r from-transparent via-cyan-500/50 to-transparent mb-4" />
             <p className="text-cyan-200/80 font-starcraft text-sm max-w-md">
